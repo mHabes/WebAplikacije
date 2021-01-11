@@ -1,0 +1,310 @@
+body {
+    background: rgb(68, 68, 68);
+    font-family: "Work Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    max-width:204px;
+    padding: 10px 30px;
+    float: left;
+
+}
+
+.banner {
+    background-image: url("Slike/Banner.jpg");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 400px;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    background: #dfab00;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin: 22px 0px 0px 250px;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    padding: 0px 30px 0px 0px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 90px 0 10px 30px;
+}
+
+.figure1 {
+    float: right;
+    width: 45%;
+    margin: 0 30px 20px 30px;
+}
+
+.homeslika {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(202, 202, 202);
+    margin: 0 30px 20px 30px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 10px 30px;
+}
+
+.allicons {
+    width: 8%;
+    margin: 0 0 30px 30px;
+}
+
+.icon {
+    margin: 0 5px 0 0;
+    width: 20%;
+}
+
+footer {
+    background-color: #dfab00;
+    padding: 22.11px 0;
+    clear: both;
+}
+
+footer p {
+    margin: 0 0 0 0;
+    text-align: center;
+    color: black;
+}
+
+.githubicon {
+    width: 20px;
+    margin: 0 0 0 5px;
+}
+
+/* -------------News---------------- */
+
+.NewsDiv {
+    margin: 20px 30px 30px 30px;
+}
+
+.NewsDiv img {
+    width: 30%;
+    float: left;
+    margin: 10px 20px 20px 0;
+}
+
+.NewsDiv h2 {
+    padding: 20px 0 10px 0;
+}
+
+.NewsDiv a {
+    text-decoration: none;
+}
+
+.NewsDiv hr {
+    clear: both;
+}
+
+.NewsDiv > p > a {
+    color: aqua;
+}
+
+/* -------------NewsOnePiece---------------- */
+
+.NewsDivOnePiece {
+    margin: 20px 30px 30px 30px;
+}
+
+.NewsDivOnePiece figure {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 15%;
+}
+
+.NewsDivOnePiece img {
+    width: 100%;
+}
+
+.NewsDivOnePiece figcaption {
+    margin: 0 0 30px 0;
+    font-size: 15px;
+}
+
+.NewsDivOnePiece hr {
+    clear: both;
+    margin: 0 0 30px 0;
+}
+
+.NewsDivOnePiece h2 {
+    margin: 0 0 10px 0;
+}
+
+.NewsDivOnePiece h3 {
+    margin: 0 0 10px 0;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.NewsDivOnePiece p {
+    margin: 0 30px 20px 0;
+}
+
+.DatumObjave {
+    float: right;
+}
+
+.NewsDivOnePiece a {
+    text-decoration: none;
+    color: aqua;
+}
+
+/* -------------CONTACT---------------- */
+
+iframe {
+    width: 100%;
+}
+
+.DivKarta {
+    padding: 20px 30px 0 30px;
+}
+
+label {
+    display: block;
+}
+
+form {
+    padding: 20px 30px 20px 30px;
+}
+
+.DivFirstName {
+    width: 50%;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    box-sizing: border-box;
+}
+
+.DivLastName {
+    width: 50%;
+    margin: 0;
+    padding: 0 0 0 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.DivEmail {
+    width: 50%;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    box-sizing: border-box;
+}
+
+.DivCountry {
+    width: 50%;
+    margin: 0;
+    padding: 0 0 0 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+input, select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: #dfab00;
+}
+
+label {
+    color: rgb(202, 202, 202);
+}
+
+.DivWrite {
+    clear: both;
+    width: 100%;
+    padding: 0;
+}
+
+.DivWrite > textarea {
+    width: 100%;
+}
+
+input[type=submit]  {
+    width: 25%;
+    background-color: khaki;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ddc471;
+}
+
+
+/* -------------GALLERY---------------- */
+
+.GalleryFigure {
+    float: left;
+    margin: 0 20px 20px 0;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: rgb(34, 34, 34);
+
+}
+
+.GalleryDiv {
+    padding: 20px 10px 0px 30px;
+    display: inline-block;
+}
+
+/* -------------ABOUT---------------- */
+
+video {
+    width: 50%;
+    margin: 0 30px 30px 30px;
+    float: left;
+    cursor: pointer;
+    border: solid 5px black;
+    border-radius: 6px;
+}
